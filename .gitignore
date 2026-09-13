@@ -6,6 +6,6 @@ target/
 
 # TestNG output reports
 test-output/
-
+node_modules/
 # ChromeDriver (each machine can have its own)
 chromedriver-win64/
