@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-13T10:39:25 PKT" name="AxonForgeSuite" finished-at="2026-09-13T10:39:46 PKT" duration-ms="21072">
+    <groups>
+    </groups>
+    <test started-at="2026-09-13T10:39:25 PKT" name="ContactFormTests" finished-at="2026-09-13T10:39:46 PKT" duration-ms="21072">
+      <class name="ContactFormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:25 PKT" name="setUp" finished-at="2026-09-13T10:39:29 PKT" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContactFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:29 PKT" name="testContactFormSubmission" data-provider="contactFormData" finished-at="2026-09-13T10:39:32 PKT" duration-ms="2960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumtaz Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qa@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Axon Forge QA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[+92 347 6338292]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Valid Submission]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Testing with valid data.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:32 PKT" name="tearDown" finished-at="2026-09-13T10:39:32 PKT" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:32 PKT" name="setUp" finished-at="2026-09-13T10:39:34 PKT" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContactFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:34 PKT" name="testContactFormSubmission" data-provider="contactFormData" finished-at="2026-09-13T10:39:39 PKT" duration-ms="4785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ayesha Khan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ayesha@company.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Khan Traders]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[+92 300 1112233]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Another Valid Case]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Second valid data set.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:39 PKT" name="tearDown" finished-at="2026-09-13T10:39:40 PKT" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:40 PKT" name="setUp" finished-at="2026-09-13T10:39:42 PKT" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContactFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:42 PKT" name="testContactFormSubmission" data-provider="contactFormData" finished-at="2026-09-13T10:39:45 PKT" duration-ms="3419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[No Company User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nocompany@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[+92 321 9998877]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Empty Company Field]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Company field left blank on purpose.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ContactFormTest@1d76aeea]" started-at="2026-09-13T10:39:45 PKT" name="tearDown" finished-at="2026-09-13T10:39:46 PKT" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ContactFormTest -->
+    </test> <!-- ContactFormTests -->
+  </suite> <!-- AxonForgeSuite -->
+</testng-results>
